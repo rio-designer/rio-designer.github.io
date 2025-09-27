@@ -37,13 +37,8 @@ img {
     height: auto;
 }
 
-.img__05 {
-    width: 178px;
-    height: 171px;
-    flex-shrink: 0;
-    display: flex;
-    margin-top: 4px;
-    gap: 5px;
+.img__05 img {
+    height: 271px;
 }
 
 .header {
@@ -1461,5 +1456,8 @@ img {
         line-height: 55px;
     }
 
+    .img__05 img {
+        height: 400px;
+    }
 
 }
